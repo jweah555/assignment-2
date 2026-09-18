@@ -9,6 +9,7 @@ header {
     background-color: #8ACFF8;
     margin: 0;
     height: 55vh;
+    padding: 1.5rem;
 }
 
 
@@ -104,11 +105,13 @@ nav {
 
 #event-sec {
     display: flex;
+    height: 75vh;
     /* flex-direction: column; */
     
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    background-color: #FCE59A;
 }
 
 /* section p {
@@ -155,8 +158,25 @@ nav {
 }
 
 #article-sec {
-
+    /* margin-top: 3rem; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #FF95A5;
+    color: #021A54;
+    padding-bottom: 3rem;
 }
+
+#article-sec ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: content;
+    width: 70%;
+    gap: 1rem;
+}
+
+
+
 
 
 
