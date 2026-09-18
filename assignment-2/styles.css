@@ -1,3 +1,124 @@
-h1 {
-    color: blue;
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #8ACFF8;
+}
+
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    list-style: none;
+}
+
+#first-li {
+  text-decoration-style: none;
+}
+
+li img {
+    height: 3.2rem;
+    width: 5;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* #present {
+    width: 10%;
+} */
+
+#li-buttons {
+    display:flex;
+    gap: .8rem;
+
+}
+
+#li-buttons button {
+    height: 2.5rem;
+    width: 5rem;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 0px;
+    background-color: #06D6A0;
+}
+
+#li-buttons button:hover {
+    background-color: #FF7F50;
+    color: white;
+}
+
+#center-li {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+#left-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input {
+    width: 8rem;
+    height: 2rem;
+    border-radius: 8px;
+    border-width: 1px;
+}
+
+
+
+#footer-ul {
+    
+    display: flex;
+    flex-direction: column;
+    border-width: 0px;
+    gap: 10px
+}
+
+#footer-btn {
+    background-color: #FFCB56;
+}
+
+#footer-btn:hover {
+    background-color: #CC3A63;
 }
