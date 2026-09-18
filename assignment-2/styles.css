@@ -102,9 +102,60 @@ nav {
     background-color: #FCE59A;
 }
 
-section {
+#event-sec {
     display: flex;
+    /* flex-direction: column; */
+    
+    flex-direction: column;
     justify-content: center;
+    text-align: center;
+}
+
+/* section p {
+    text-align: start;
+} */
+#card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    /* justify-content: center; */
+}
+
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: start;
+   
+}
+
+.cards img {
+    margin: auto;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: start; */
+    gap: .5rem;
+}
+
+.card-text span{
+    border-style: solid;
+    border-width: 0.1px;
+    width: 70%;
+    border-radius: 8px;
+    padding: .2rem .2rem .2rem .2rem;
+    padding-right: 0rem;
+}
+
+#article-sec {
+
 }
 
 
